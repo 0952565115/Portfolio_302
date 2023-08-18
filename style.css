@@ -1,0 +1,94 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient( 250deg, #461677 10%, #1400f5 100%);
+}
+
+:root{
+    --main-color: #fd4646;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+
+.shape {
+    margin: 10px;
+    display: flex;
+    height: 730px;
+    margin-top: 100px;
+}
+.blockStatus {
+    background-color: var(--bg-color);
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 6px solid #75c7b1;
+    box-shadow: -1px -1px 20px 3px rgba(0, 0, 0, 0.33);
+}
+
+.proflie_box {
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+    margin-top: 1.5rem;
+}
+.proflie_box img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    border: 10px solid #75c7b1;
+    margin-top: 1.5rem;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+}
+.box_text{
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+.blockGraph {
+    background-color: var(--bg-color);
+    margin: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: 6px solid #75c7b1;
+    box-shadow: -1px -1px 20px 3px rgba(0, 0, 0, 0.33);
+    display: flex; /* เพิ่มคุณสมบัติ flex */
+    justify-content: center; /* จัดกล่องให้อยู่กลางแนวนอน */
+    align-items: center; /* จัดกล่องให้อยู่กลางแนวตั้ง */
+}
+.headers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.chart-1 {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.chart-2 {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
